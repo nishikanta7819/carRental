@@ -27,6 +27,9 @@
 }
 
 @media(max-width:480px) {
+    .rentDashboard{
+        margin-top: 10px;
+    }
     .rentdashboardHeading p {
         font-size: 20px;
         font-weight: bold;
