@@ -1,0 +1,49 @@
+.featuredVehicles {
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.featuredVehiclesHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.featuredVehiclesHeading p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.featuredVehiclesParagraph {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.featuredVehiclesCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px auto;
+}
+
+@media(max-width:480px) {
+    .featuredVehicles {
+        padding: 0 20px;
+    }
+
+    .featuredVehiclesHeading p {
+        font-size: 20px;
+    }
+
+    .featuredVehiclesParagraph {
+        font-size: 12px;
+
+    }
+
+    .featuredVehiclesCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

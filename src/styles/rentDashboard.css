@@ -1,0 +1,38 @@
+.rentDashboard {
+    margin-top: 50px;
+}
+
+.rentdashboardHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.rentdashboardHeading p {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rentdashboardImage {
+    display: flex;
+    justify-content: center;
+}
+
+.rentdashboardImage img {
+    height: 500px;
+}
+
+.rentdashboardImage img:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+
+@media(max-width:480px) {
+    .rentdashboardHeading p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .rentdashboardImage img {
+        height: 150px;
+    }
+}

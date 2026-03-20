@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navbarLogo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbarLogo p {
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbarLogo img {
+    height: 30px;
+}
+
+.navbarLinks ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.navbarLinks ul li {
+    color: hsl(0, 0%, 30%);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.navbarLinks ul li:hover {
+    transform: translateY(-3px) scale(1);
+    color: black;
+}
+
+.navbarRight {
+    display: flex;
+    gap: 10px;
+}
+
+.navbarSearch input {
+    padding: 10px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    box-shadow: 0px 5px 32px rgba(0, 0, 0, 0.3);
+}
+
+.navbarButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.navbarButtons button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+    font-size: 12px;
+}
+
+.navbarButtons button:hover {
+    transform: translateY(-3px) scale(1);
+}
+
+/*  */
+@media(max-width:480px) {
+    .navbar {
+        display: none;
+    }
+}

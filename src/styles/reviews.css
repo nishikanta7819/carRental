@@ -1,0 +1,71 @@
+.reviews {
+    padding: 0px 60px;
+    margin-bottom: 100px;
+    height: 100vh;
+}
+
+.reviewsHeading p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reviewCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.reviewStars span {
+    color: gold;
+    font-size: 22px;
+}
+
+.cards {
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cards:hover {
+    transform: translateY(-3px) scale(1);
+}
+
+.reviewStar {
+    margin-bottom: 5px;
+}
+
+.reviewUser {
+    display: flex;
+    gap: 10px;
+}
+
+.reviewUserPhoto {
+    padding: 10px;
+    width: 12%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.reviewUserNameDate #date {
+    font-size: 12px;
+    color: hsl(0, 0%, 40%);
+    margin-top: 5px;
+}
+
+
+@media(max-width:480px){
+    .reviews{
+        display: none;
+    }
+}

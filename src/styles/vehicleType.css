@@ -1,0 +1,41 @@
+.vehicleType {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vehicle {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.vehicle p {
+    margin: 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+}
+.vehicle p:hover{
+    transform: translateY(-3px) scale(1);
+}
+
+.vehicle p:hover {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.vehicle p.active {
+    background-color: black;
+    color: white;
+}
+@media(max-width:480px){
+    .vehicleType{
+        display: none;
+    }
+}
