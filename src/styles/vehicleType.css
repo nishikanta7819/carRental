@@ -37,17 +37,19 @@
 }
 
 @media(max-width:480px) {
-    .vehicleType{
+    .vehicleType {
         margin-top: 10px;
     }
+
     .vehicle {
         display: flex;
         gap: 0px;
         padding: 2px 5px;
+        box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.3);
     }
 
     .vehicle p {
-        font-size: 8px;
-        padding: 5px;
+        font-size: 10px;
+        padding: 8px;
     }
 }
