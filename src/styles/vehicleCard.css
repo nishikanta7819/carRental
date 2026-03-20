@@ -47,8 +47,41 @@
     display: flex;
     gap: 10px;
 }
-@media(max-width:480px){
-    .vehicleCard{
-        display: none;
+
+
+/* ---------------Responsive--------------- */
+
+@media(max-width:480px) {
+    .vehicleCard {
+        height: 180px;
+    }
+
+    .carImage img {
+        height: 50px;
+    }
+
+    .carName p {
+        font-size: 12px;
+    }
+
+    .carDesc {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .carDesc img {
+        height: 8px;
+        gap: 0px;
+    }
+
+    .carDesc p {
+        font-size: 8px;
+    }
+
+    .carPrice,
+    .carSeater,
+    .fuelType,
+    .location {
+        display: flex;
+        gap: 5px;
     }
 }
