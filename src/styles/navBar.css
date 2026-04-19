@@ -50,11 +50,7 @@
     border-radius: 50px;
     border: none;
     width: 300px;
-<<<<<<< HEAD
-    box-shadow: 0px 5px 32px rgba(0, 0, 0, 0.3);
-=======
     border: 1px solid hsl(0, 0%, 80%);
->>>>>>> c4e8d76 (Initial commit)
 }
 
 .navbarButtons {
@@ -68,12 +64,7 @@
     border: none;
     text-transform: uppercase;
     cursor: pointer;
-<<<<<<< HEAD
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
-=======
     border: 1px solid hsl(0, 0%, 80%);
->>>>>>> c4e8d76 (Initial commit)
-    transition: 0.3s ease;
     font-size: 12px;
 }
 
