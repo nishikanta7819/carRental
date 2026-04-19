@@ -14,7 +14,8 @@ const cars = [
     location: "Bhubaneswar",
   },
   {
-    image: "https://imgd.aeplcdn.com/370x208/n/cw/ec/170173/dzire-exterior-right-front-three-quarter-27.png?isig=0&q=80",
+    image:
+      "https://imgd.aeplcdn.com/370x208/n/cw/ec/170173/dzire-exterior-right-front-three-quarter-27.png?isig=0&q=80",
     name: "Maruti Suzuki Dzire",
     price: "7,50,000",
     seater: "5",
@@ -22,7 +23,8 @@ const cars = [
     location: "Cuttack",
   },
   {
-    image: "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/139133/aura-exterior-right-front-three-quarter-9.png?isig=0&q=80&q=80",
+    image:
+      "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/139133/aura-exterior-right-front-three-quarter-9.png?isig=0&q=80&q=80",
     name: "Hyundai Aura",
     price: "7,80,000",
     seater: "5",
@@ -30,11 +32,8 @@ const cars = [
     location: "Puri",
   },
   {
-<<<<<<< HEAD
-    image: "",
-=======
-    image: "https://cdn.carhp.in/tata/tata_altroz_arcade_grey.jpg?format=webp&width=800&q=75",
->>>>>>> c4e8d76 (Initial commit)
+    image:
+      "https://cdn.carhp.in/tata/tata_altroz_arcade_grey.jpg?format=webp&width=800&q=75",
     name: "Tata Altroz",
     price: "8,50,000",
     seater: "5",
@@ -42,11 +41,8 @@ const cars = [
     location: "Bhubaneswar",
   },
   {
-<<<<<<< HEAD
-    image: "",
-=======
-    image: "https://imgd.aeplcdn.com/664x374/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-69.png?isig=0&q=80",
->>>>>>> c4e8d76 (Initial commit)
+    image:
+      "https://imgd.aeplcdn.com/664x374/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-69.png?isig=0&q=80",
     name: "Maruti Suzuki Baleno",
     price: "8,20,000",
     seater: "5",
@@ -54,11 +50,8 @@ const cars = [
     location: "Khordha",
   },
   {
-<<<<<<< HEAD
-    image: "",
-=======
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfiLWSgKLyZZiDN_4bZohiQKPL_XpPkBXNQ&s",
->>>>>>> c4e8d76 (Initial commit)
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfiLWSgKLyZZiDN_4bZohiQKPL_XpPkBXNQ&s",
     name: "Hyundai Creta",
     price: "11,00,000",
     seater: "5",
@@ -73,21 +66,18 @@ const FeaturedVehicles = () => {
       <div className="featuredVehiclesHeading">
         <p>Featured Vehicles</p>
       </div>
+
       <div className="featuredVehiclesParagraph">
         <p>
           Explore our selection of premium vehicles available for your next
           adventure
         </p>
       </div>
-<<<<<<< HEAD
-      <VehicleType/>
-      <div className="featuredVehiclesCards">
-        {cars.slice(0,6).map((car, index) => (
-=======
+
       <VehicleType />
+
       <div className="featuredVehiclesCards">
         {cars.slice(0, 6).map((car, index) => (
->>>>>>> c4e8d76 (Initial commit)
           <VehicleCard
             key={index}
             image={car.image}
