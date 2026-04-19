@@ -30,7 +30,11 @@ const cars = [
     location: "Puri",
   },
   {
+<<<<<<< HEAD
     image: "",
+=======
+    image: "https://cdn.carhp.in/tata/tata_altroz_arcade_grey.jpg?format=webp&width=800&q=75",
+>>>>>>> c4e8d76 (Initial commit)
     name: "Tata Altroz",
     price: "8,50,000",
     seater: "5",
@@ -38,7 +42,11 @@ const cars = [
     location: "Bhubaneswar",
   },
   {
+<<<<<<< HEAD
     image: "",
+=======
+    image: "https://imgd.aeplcdn.com/664x374/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-69.png?isig=0&q=80",
+>>>>>>> c4e8d76 (Initial commit)
     name: "Maruti Suzuki Baleno",
     price: "8,20,000",
     seater: "5",
@@ -46,7 +54,11 @@ const cars = [
     location: "Khordha",
   },
   {
+<<<<<<< HEAD
     image: "",
+=======
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfiLWSgKLyZZiDN_4bZohiQKPL_XpPkBXNQ&s",
+>>>>>>> c4e8d76 (Initial commit)
     name: "Hyundai Creta",
     price: "11,00,000",
     seater: "5",
@@ -67,9 +79,15 @@ const FeaturedVehicles = () => {
           adventure
         </p>
       </div>
+<<<<<<< HEAD
       <VehicleType/>
       <div className="featuredVehiclesCards">
         {cars.slice(0,6).map((car, index) => (
+=======
+      <VehicleType />
+      <div className="featuredVehiclesCards">
+        {cars.slice(0, 6).map((car, index) => (
+>>>>>>> c4e8d76 (Initial commit)
           <VehicleCard
             key={index}
             image={car.image}
