@@ -66,10 +66,10 @@
     cursor: pointer;
     border: 1px solid hsl(0, 0%, 80%);
     font-size: 12px;
+    transition: transform 0.3s ease;
 }
-
-.navbarButtons button:hover {
-    transform: translateY(-3px) scale(1);
+.navbarButtons button:hover{
+    transform: scale(1.1);
 }
 
 /* ----------Responsive-------- */
